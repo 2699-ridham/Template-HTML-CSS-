@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,81 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="header-contanier">
-        <div class="image-container">
-            <div class="image-overlay">
-                <div class="font">
-                    <div class="first-line">First Assignment</div>
-                    <div class="second-line"> WE ARE</div>
-                    <div class="third-line">DEVELOPERS</div>
-                    <div class="forth-line">And this is my first assignment as a react.js intern using HTML,CSS and media query</div>
-                    <div class="fivth-line">Don't use Bootstrap for this Assignmnet</div>
-                </div>
-            </div>
+    <div class="image-container">
+        <div>
+            <p>
+                First Assignment
+                <span class="a">WE ARE</span>
+                <span>DEVELOPERS</span>
+                And this is my first assignment as a react.js intern using HTML,CSS and media query
+                <br>Don't use Bootstrap for this Assignmnet
+            </p>
         </div>
-        <div class="navbar">
-            <div class="logo-container">Dummy Logo</div>
-            <div class="list-container">
-                <div class="home">Home</div>
-                <div class="about">About</div>
-                <div class="product">Product</div>
-                <div class="services">services</div>
-                <div class="contact">Contact</div>
-            </div>
-        </div>
+    </div>
+    <nav>
+        <label class="Logo">Dummy Logo</label>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>PRODUCTS</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <div class="container">
         <div class="content-container">
-            <div class="heading-container">
-                HOME
-            </div>
-            <div class="content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ipsum dolor blanditiis odit, et aspernatur dolorem quo, unde vero molestias magni impedit, ducimus fuga ad omnis doloremque ut excepturi ex!</p>
-            </div>
+            <h2>ABOUT US</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ullam provident incidunt vel
+                repudiandae
+                nisi similique sint ab rem possimus. Ex consequatur repellat distinctio eum aliquid culpa, error
+                expedita
+                officiis.
+            </p>
+            <h2>PRODUCTS</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ullam provident incidunt vel
+                repudiandae
+                nisi similique sint ab rem possimus. Ex consequatur repellat distinctio eum aliquid culpa, error
+                expedita
+                officiis.
+            </p>
+            <h2>SERVICES</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ullam provident incidunt vel
+                repudiandae
+                nisi similique sint ab rem possimus. Ex consequatur repellat distinctio eum aliquid culpa, error
+                expedita
+                officiis.
+            </p>
+            <h2>CONTACT</h2>
+            <hr>
+            <h3>Mention Your Contact Details</h3>
+            <form id="Details">
+                <label>Name:</label>
+                <input type="text" name="fname" id="name" placeholder="Enter Your Name">
+                <br><br>
+                <label>Email ID:</label>
+                <input type="text" name="mail" id="Email" placeholder="Enter Your Email">
+                <br><br>
+                <label>Contact Number:</label>
+                <input type="number" name="number" id="contact" placeholder="Enter Your Contact Number">
+                <br><br>
+                <label>Age:</label>
+                <input type="Number" name="number" id="age" placeholder="Enter Your Age">
+                <br>
+                <label>About Yourself:</label>
+                <textarea id="discription" name="myself" rows="5" cols="50"></textarea>
+                <br><br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <div class="image">
+            <img src="./Assets/Image/image.png" alt="computer">
         </div>
     </div>
 </body>
+
 </html>
